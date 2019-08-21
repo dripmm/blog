@@ -1,107 +1,7 @@
 {{define "home/index.html"}}
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta name="generator" content="Hugo 0.57.2"/>
-    <meta http-equiv="content-type" content="text/html;charset=utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="robots" content="noodp"/>
-    <link rel="canonical" href="https://themes.gohugo.io//theme/KeepIt/"/>
-    <link rel='shortcut icon' type='image/x-icon' href='https://themes.gohugo.io//theme/KeepIt/favicon.ico'/>
-    <link rel="apple-touch-icon" sizes="180x180" href="https://themes.gohugo.io//theme/KeepIt/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="https://themes.gohugo.io//theme/KeepIt/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="https://themes.gohugo.io//theme/KeepIt/favicon-16x16.png">
-    <link rel="mask-icon" href="https://themes.gohugo.io//theme/KeepIt/safari-pinned-tab.svg" color="#5bbad5">
-    <meta name="msapplication-TileColor" content="#da532c">
-    <meta name="theme-color" content="#ffffff">
-    <title>
-        Drip
-    </title>
-    <meta name="title" content="KeepIt">
-    <link rel="stylesheet" href="asset/css/iconfont.css">
-    <link rel="stylesheet" href="asset/css/main.min.css">
-    <link rel="alternate" href="https://themes.gohugo.io//theme/KeepIt/index.xml" type="application/rss+xml"
-          title="KeepIt">
-    <link rel="feed" href="https://themes.gohugo.io//theme/KeepIt/index.xml" type="application/rss+xml" title="KeepIt">
-    <meta name="twitter:card" content="summary"/>
-    <meta name="twitter:title" content=""/>
-    <meta name="twitter:description" content=""/>
-    <script type="application/ld+json">
-        {
-            "@context": "http://schema.org",
-            "@type": "WebSite",
-            "url": "https:\/\/themes.gohugo.io\/\/theme\/KeepIt\/",
-            "author": {
-                "@type": "Person",
-                "name": "Fastbyte01"
-            },
-            "image": "https:\/\/themes.gohugo.io\/theme\/KeepIt\/cover.png",
-            "thumbnailUrl": "https:\/\/themes.gohugo.io\/theme\/KeepIt\/logo.png",
-            "name": "KeepIt"
-        }
-    </script>
-    <style>
-        /*body, html {*/
-        /*    margin: 0;*/
-        /*    height: 100%;*/
-        /*    text-align: center;*/
-        /*    font-family: 'Microsoft YaHei';*/
-        /*    color: #666;*/
-        /*    width: 700px;*/
-        /*    margin: auto auto;*/
-        /*}*/
-
-        h2 {
-            text-align: center;
-            letter-spacing: 1pt;
-            font-size: 20px;
-            font-weight: 100;
-            margin-bottom: 15px;
-        }
-
-        p {
-            text-align: justify;
-            text-indent: 2em;
-            margin: 0;
-            /*font-size: 16px;*/
-            /*font-weight: 500;*/
-            display: none;
-            line-height: 28px;
-        }
-    </style>
-</head>
-<body class="">
-<div class="wrapper">
-    <nav class="navbar">
-        <div class="container">
-            <div class="navbar-header header-logo">
-                <a href="/">Drip</a>
-            </div>
-            <div class="menu navbar-right">
-                <a class="menu-item" href="api/v1/blogs" title="">Blog</a>
-                <a class="menu-item" href="api/v1/categories" title="">Categories</a>
-                <a class="menu-item" href="/about" title="">About</a>
-                <a href="javascript:void(0);" class="theme-switch"><i class="iconfont icon-sun"></i></a>&nbsp;
-            </div>
-        </div>
-    </nav>
-    <nav class="navbar-mobile" id="nav-mobile" style="display: none">
-        <div class="container">
-            <div class="navbar-header">
-                <div><a href="javascript:void(0);" class="theme-switch"><i class="iconfont icon-sun"></i></a>&nbsp;<a
-                            href="https://themes.gohugo.io//theme/KeepIt/">Drip</a></div>
-                <div class="menu-toggle">
-                    <span></span><span></span><span></span>
-                </div>
-            </div>
-            <div class="menu" id="mobile-menu">
-                <a class="menu-item" href="https://themes.gohugo.io//theme/KeepIt/posts/" title="">Blog</a>
-                <a class="menu-item" href="https://themes.gohugo.io//theme/KeepIt/categories/" title="">Categories</a>
-                <a class="menu-item" href="https://themes.gohugo.io//theme/KeepIt/about" title="">About</a>
-            </div>
-        </div>
-    </nav>
+    {{template "layout/header"}}
+    <link rel="stylesheet" href="asset/css/home.css">
+    {{template "layout/nav"}}
     <main class="main">
         <div class="container">
             <div class="intro">
@@ -128,18 +28,7 @@
             </div>
         </div>
     </main>
-    <footer class="footer">
-        <div class="copyright">
-            &copy;
-            <span itemprop="copyrightYear">2012 - 2019</span>
-            <span>Crafted with ❤️ by <a href="https://github.com/Fastbyte01/KeepIt" target="_blank"
-                                        rel="external nofollow noopener noreffer">Drip</a></span>
-        </div>
-    </footer>
-    <script src="/asset/js/vendor_main.min.js" type="text/javascript"></script>
-</div>
-</body>
-</html>
+{{template "layout/footer"}}
 <script>
     function typeEffect(element, speed) {
         var text = $(element).text();

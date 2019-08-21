@@ -3,11 +3,14 @@
   <component name="ChangeListManager">
     <list default="true" id="5545d776-ac33-43ec-a714-c388a316c3e1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main" beforeDir="false" afterPath="$PROJECT_DIR$/main" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routers/api/v1/blog.go" beforeDir="false" afterPath="$PROJECT_DIR$/routers/api/v1/blog.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routers/router.go" beforeDir="false" afterPath="$PROJECT_DIR$/routers/router.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tmp/runner-build" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/runner-build" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/blog/categories.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/blog/categories.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/blog/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/blog/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/home/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/home/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/layout/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/layout/footer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/layout/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/layout/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/user/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/user/login.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,9 +23,9 @@
       <list>
         <option value="TypeScript File" />
         <option value="JavaScript File" />
-        <option value="HTML File" />
         <option value="Go File" />
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -70,7 +73,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.login.html">
+  <component name="RunManager" selected="Go Build.go build github.com/drip/hello">
     <configuration name="go build github.com/drip/hello" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="learn" />
       <working_directory value="$PROJECT_DIR$" />
@@ -96,9 +99,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JavaScript Debug.login.html" />
-        <item itemvalue="JavaScript Debug.index.html" />
         <item itemvalue="Go Build.go build github.com/drip/hello" />
+        <item itemvalue="JavaScript Debug.index.html" />
+        <item itemvalue="JavaScript Debug.login.html" />
         <item itemvalue="Go Build.go build hello.go" />
       </list>
     </recent_temporary>

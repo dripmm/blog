@@ -35,6 +35,8 @@ func InitRouter() *gin.Engine {
 	// user sing in
 	r.GET("/sign", v1.SignIn)
 
+	// article add
+	r.GET("/article", v1.Article)
 	//apiv1 := r.Group("/api/v1")
 	//{
 	//}
