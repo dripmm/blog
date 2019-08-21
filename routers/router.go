@@ -23,16 +23,20 @@ func InitRouter() *gin.Engine {
 	// about
 	r.GET("/about", v1.About)
 
-	apiv1 := r.Group("/api/v1")
-	{
-		// blog list page
-		apiv1.GET("/blogs", v1.BlogList)
+	// blog list
+	r.GET("/blogs", v1.BlogList)
 
-		// blog categories page
-		apiv1.GET("/categories", v1.Categories)
+	// categories
+	r.GET("/categories", v1.Categories)
 
-		// blog detail
-		apiv1.GET("/detail", v1.Detail)
-	}
+	// blog dateil
+	r.GET("/detail", v1.Detail)
+
+	// user sing in
+	r.GET("/sign", v1.SignIn)
+
+	//apiv1 := r.Group("/api/v1")
+	//{
+	//}
 	return r
 }
