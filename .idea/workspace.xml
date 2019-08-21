@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5545d776-ac33-43ec-a714-c388a316c3e1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routers/api/v1/blog.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routers/api/v1/blog.go" beforeDir="false" afterPath="$PROJECT_DIR$/routers/api/v1/blog.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routers/router.go" beforeDir="false" afterPath="$PROJECT_DIR$/routers/router.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tmp/runner-build" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/runner-build" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/blog/categories.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/blog/categories.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/blog/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/blog/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/home/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/home/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,11 +19,11 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="TypeScript File" />
         <option value="CSS File" />
         <option value="JavaScript File" />
         <option value="Go File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>

@@ -19,6 +19,10 @@ func InitRouter() *gin.Engine {
 
 	// home page
 	r.GET("/", v1.HomePage)
+
+	// about
+	r.GET("/about", v1.About)
+
 	apiv1 := r.Group("/api/v1")
 	{
 		// blog list page
@@ -26,6 +30,9 @@ func InitRouter() *gin.Engine {
 
 		// blog categories page
 		apiv1.GET("/categories", v1.Categories)
+
+		// blog detail
+		apiv1.GET("/detail", v1.Detail)
 	}
 	return r
 }

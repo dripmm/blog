@@ -12,3 +12,7 @@ func BlogList(c *gin.Context) {
 func Categories(c *gin.Context) {
 	c.HTML(http.StatusOK, "blog/categories.html", nil)
 }
+
+func Detail(c *gin.Context) {
+	c.HTML(http.StatusOK, "blog/detail.html", nil)
+}
