@@ -3,14 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="5545d776-ac33-43ec-a714-c388a316c3e1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routers/api/v1/blog.go" beforeDir="false" afterPath="$PROJECT_DIR$/routers/api/v1/blog.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routers/router.go" beforeDir="false" afterPath="$PROJECT_DIR$/routers/router.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/runner-build" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/runner-build" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/blog/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/blog/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/home/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/home/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/layout/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/layout/footer.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/layout/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/layout/header.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/user/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/user/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/admin/article_add.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/admin/article_add.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -114,7 +107,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
