@@ -288,7 +288,8 @@ blockquote:after {
 .navbar {
     height: 4rem;
     line-height: 4rem;
-    width: 100%
+    width: 100%;
+    font-size: 13pt;
 }
 
 .navbar .container {

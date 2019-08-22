@@ -1,47 +1,69 @@
 {{define "blog/index.html"}}
     {{template "layout/header"}}
     {{template "layout/nav"}}
+    <link rel="stylesheet" href="/asset/css/blog.css">
     <main class="main">
         <div class="container">
             <div class="post-warp archive">
                 <h2 class="post-title" style="text-align:right;padding-bottom:2em">-&nbsp;Posts&nbsp;-</h2>
-                <h3>2019</h3>
-                <article class="archive-item">
-                    <a href="/api/v1/detail"
-                       class="archive-item-link">Markdown Syntax Guide</a>
-                    <span class="archive-item-date">
-            11 March 2019
-        </span>
-                </article>
-                <article class="archive-item">
-                    <a href="https://themes.gohugo.io//theme/KeepIt/2019/rich-content/" class="archive-item-link">Rich
-                        Content</a>
-                    <span class="archive-item-date">
-            10 March 2019
-        </span>
-                </article>
-                <article class="archive-item">
-                    <a href="https://themes.gohugo.io//theme/KeepIt/2019/placeholder-text/"
-                       class="archive-item-link">Placeholder Text</a>
-                    <span class="archive-item-date">
-            9 March 2019
-        </span>
-                </article>
-                <article class="archive-item">
-                    <a href="https://themes.gohugo.io//theme/KeepIt/2019/math-typesetting/"
-                       class="archive-item-link">Math Typesetting</a>
-                    <span class="archive-item-date">
-            8 March 2019
-        </span>
-                </article>
-
-                <article class="archive-item">
-                    <a href="https://themes.gohugo.io//theme/KeepIt/2019/emoji-support/" class="archive-item-link">Emoji
-                        Support</a>
-                    <span class="archive-item-date">
-            5 March 2019
-        </span>
-                </article>
+                <ul class="articles">
+                    <li>
+                        <h2>
+                            <a class="title"
+                               href="/article?path=%2fGOLANG%2fGOLANG%e7%ac%94%e8%ae%b0%2f%e5%ad%a6%e4%b9%a0GOLANG%e8%bf%87%e7%a8%8b%e4%b8%ad%e7%9a%84%e4%b8%80%e4%ba%9b%e7%bb%86%e8%8a%82%28%e4%b8%80%29.md">学习GOLANG过程中的一些细节(一).md</a>
+                        </h2>
+                        <div class="article-info">
+                        <span>
+                            <img class="icon" src="/asset/image/folder.svg" alt="">
+                            <span>
+                                分类于 <a class="category" href="/category?name=/GOLANG">GOLANG</a>
+                            </span>
+                        </span>
+                        <span class="divider-line"></span>
+                        <span>
+                            <img class="icon" src="/asset/image/date.svg" alt="">
+                            <span>发表于2019-08-18 17:15</span>
+                        </span>
+                        </div>
+                        <div class="description">
+                            在学习GOLANG的过程中会有一些容易忽略的小细节，希望把这些细节记录下来，以备后续翻阅复习。这部分是基础部分，主要是在语法上的一些细节，会继续更新。...
+                        </div>
+                        <a class="read-all" href="/detail" rel="contents">阅读全文 »</a>
+                        <div class="article-eof"></div>
+                    </li>
+                    <li>
+                        <h2>
+                            <a class="title"
+                               href="/article?path=%2fGOLANG%2fGOLANG%e7%ac%94%e8%ae%b0%2f%e5%ad%a6%e4%b9%a0GOLANG%e8%bf%87%e7%a8%8b%e4%b8%ad%e7%9a%84%e4%b8%80%e4%ba%9b%e7%bb%86%e8%8a%82%28%e4%b8%80%29.md">学习GOLANG过程中的一些细节(一).md</a>
+                        </h2>
+                        <div class="article-info">
+                        <span>
+                            <img class="icon" src="/asset/image/folder.svg" alt="">
+                            <span>
+                                分类于 <a class="category" href="/category?name=/GOLANG">GOLANG</a>
+                            </span>
+                        </span>
+                            <span class="divider-line"></span>
+                            <span>
+                            <img class="icon" src="/asset/image/date.svg" alt="">
+                            <span>发表于2019-08-18 17:15</span>
+                        </span>
+                        </div>
+                        <div class="description">
+                            在学习GOLANG的过程中会有一些容易忽略的小细节，希望把这些细节记录下来，以备后续翻阅复习。这部分是基础部分，主要是在语法上的一些细节，会继续更新。...
+                        </div>
+                        <a class="read-all" href="" rel="contents">阅读全文 »</a>
+                        <div class="article-eof"></div>
+                    </li>
+                </ul>
+                <ul class="pagination">
+                    <li class="active">
+                        <a href="?page=1">1</a>
+                    </li>
+                    <li class="">
+                        <a href="?page=2">2</a>
+                    </li>
+                </ul>
             </div>
         </div>
     </main>

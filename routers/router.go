@@ -31,6 +31,7 @@ func InitRouter() *gin.Engine {
 	{
 		backEnd.GET("/", admin.SignIn)
 		backEnd.GET("/article_add", admin.ArticleAdd)
+		backEnd.GET("/article", admin.ArticleList)
 	}
 	//// user sing in
 	//r.GET("/sign", admin.SignIn)
