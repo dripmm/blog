@@ -2,6 +2,7 @@ package routers
 
 import (
 	"github.com/drip/hello/pkg/setting"
+	"github.com/drip/hello/routers/admin"
 	v1 "github.com/drip/hello/routers/api/v1"
 	"github.com/gin-gonic/gin"
 )
@@ -13,30 +14,34 @@ func InitRouter() *gin.Engine {
 
 	r.Use(gin.Recovery())
 
-	r.LoadHTMLGlob("views/**/*")
+	r.LoadHTMLGlob("views/**/**/*")
 
 	gin.SetMode(setting.ServerSetting.RunMode)
 
-	// home page
-	r.GET("/", v1.HomePage)
+	/* front pages */
+	front := r.Group("/")
+	{
+		front.GET("/", v1.HomePage)
+		front.GET("/about", v1.About)
+		front.GET("/blogs", v1.BlogList)
+		front.GET("/categories", v1.Categories)
+		front.GET("/detail", v1.Detail)
+	}
+	backEnd := r.Group("/admin")
+	{
+		backEnd.GET("/", admin.SignIn)
+		backEnd.GET("/article_add", admin.ArticleAdd)
+	}
+	//// user sing in
+	//r.GET("/sign", admin.SignIn)
+	//
+	//// article add
+	//r.GET("/article", admin.Article)
+	//
+	//// categoies add
+	//r.GET("/categories_add", admin.CategoriesAdd)
 
-	// about
-	r.GET("/about", v1.About)
-
-	// blog list
-	r.GET("/blogs", v1.BlogList)
-
-	// categories
-	r.GET("/categories", v1.Categories)
-
-	// blog dateil
-	r.GET("/detail", v1.Detail)
-
-	// user sing in
-	r.GET("/sign", v1.SignIn)
-
-	// article add
-	r.GET("/article", v1.Article)
+	/* admin pages start */
 	//apiv1 := r.Group("/api/v1")
 	//{
 	//}

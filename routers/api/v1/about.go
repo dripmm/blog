@@ -6,5 +6,5 @@ import (
 )
 
 func About (c *gin.Context) {
-	c.HTML(http.StatusOK, "about/index.html", nil)
+	c.HTML(http.StatusOK, "front/about/index.html", nil)
 }

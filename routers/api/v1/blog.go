@@ -17,7 +17,3 @@ func Detail(c *gin.Context) {
 	c.HTML(http.StatusOK, "blog/detail.html", nil)
 }
 
-// admin article add
-func Article(c *gin.Context) {
-	c.HTML(http.StatusOK, "admin/article_add.html", nil)
-}
