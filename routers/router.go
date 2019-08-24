@@ -29,7 +29,9 @@ func InitRouter() *gin.Engine {
 	}
 	backEnd := r.Group("/admin")
 	{
-		backEnd.GET("/", admin.SignIn)
+		backEnd.GET("/", admin.Index)
+		backEnd.GET("/welcome", admin.Welcome)
+		backEnd.GET("/sign", admin.SignIn)
 		backEnd.GET("/article_add", admin.ArticleAdd)
 		backEnd.GET("/article", admin.ArticleList)
 	}

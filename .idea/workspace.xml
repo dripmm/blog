@@ -3,11 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="5545d776-ac33-43ec-a714-c388a316c3e1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/css/main.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/asset/css/main.min.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routers/admin/blog.go" beforeDir="false" afterPath="$PROJECT_DIR$/routers/admin/blog.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routers/router.go" beforeDir="false" afterPath="$PROJECT_DIR$/routers/router.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/front/blog/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/front/blog/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/front/layout/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/front/layout/header.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,9 +17,9 @@
       <list>
         <option value="TypeScript File" />
         <option value="JavaScript File" />
-        <option value="Go File" />
         <option value="CSS File" />
         <option value="HTML File" />
+        <option value="Go File" />
       </list>
     </option>
   </component>
@@ -44,20 +41,22 @@
     <property name="configurable.Module.GOPATH.is.expanded" value="false" />
     <property name="configurable.Project.GOPATH.is.expanded" value="true" />
     <property name="go.import.settings.migrated" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/views/admin" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/views/admin/blog" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/views/admin/index" />
       <recent name="$PROJECT_DIR$/views/admin/user" />
       <recent name="$PROJECT_DIR$/views/admin/blog" />
       <recent name="$PROJECT_DIR$/views/front" />
       <recent name="$PROJECT_DIR$/views/home" />
-      <recent name="$PROJECT_DIR$/views" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/views/admin/blog" />
       <recent name="$PROJECT_DIR$/views/admin" />
+      <recent name="$PROJECT_DIR$/asset/admin" />
       <recent name="$PROJECT_DIR$/views/user" />
       <recent name="$PROJECT_DIR$/views/blog" />
     </key>

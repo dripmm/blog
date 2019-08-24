@@ -12,7 +12,7 @@ func ArticleAdd(c *gin.Context) {
 
 // article list
 func ArticleList(c *gin.Context) {
-	c.HTML(http.StatusOK, "admin/blog/index.html", nil)
+	c.HTML(http.StatusOK, "admin/blog/list.html", nil)
 }
 
 // categories add page
